@@ -2,6 +2,7 @@
 *{
     margin: 0;
 }
+/* background do site */
 .background {
     background: linear-gradient(#0F0815, #603c9b);
     background-size: cover;
@@ -10,7 +11,7 @@
     height: 100vh;
 }
 
-
+/* cabeçalho */
 header {
     width: 100%;
     height: 10%;
@@ -66,7 +67,7 @@ a:hover {
     }
 }
 
-
+/* container- segurando resumo, icons e img do index */
 section {
     display: flex;
     justify-content: center;
@@ -75,7 +76,6 @@ section {
     height: 80%;
     text-overflow: clip
 }
-
 .resumo {
     color: antiquewhite;
     display: flex;
@@ -84,6 +84,7 @@ section {
     width: 700px;
     height: 200px;
 }
+/* estilização de titulos, paragrafos e tag span */
 h1,h2{
     font-size: 18px;
     color: #FF9551;
@@ -100,7 +101,7 @@ span{
     
 }
 
-
+/* redes sociais */
 .icons{
     display: flex;
     flex-direction: row;
@@ -116,7 +117,7 @@ span{
     padding: 10px;
     margin-top: 5px;
 }
-
+/*  */
 .perfil-img{
     padding-top: 40px;
     max-width: 440px;
@@ -124,7 +125,7 @@ span{
     width: auto;
     height: auto;
 }
-
+/* rodapé */
 footer {
     color: #D09CFA;
     text-align: center;
@@ -137,7 +138,7 @@ footer {
     padding: 10px;
 
 }
-
+/* css page hobbie - divs usadas dentro da section */
 .resumo-hobbie {
     color: antiquewhite;
     font-family: Poppins,sans-serif;
@@ -159,9 +160,9 @@ footer {
     height: auto;
 }
 
-        
+        /*page formulário  */
  .formulario {
-            background: linear-gradient(rgba(147, 148, 135, 0.5), rgba(255, 255, 255, 0.5)), url(background.jpg);
+            background: linear-gradient(rgba(147, 148, 135, 0.5), rgba(255, 255, 255, 0.5));
             background-size: cover;
             background-position: center;
             font-family: Poppins, sans-serif;
@@ -183,7 +184,7 @@ footer {
             background-color: rgba(255, 255, 255, 0.242);
             border-radius: 5px;
         }
-
+/* estilizaçao */
         .form input[type="text"],
         .form input[type="email"],
         .form input[type="tel"],
